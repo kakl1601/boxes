@@ -2,7 +2,7 @@
   "name": "kanyas-boxes",
   "main": "src/index.js",
   "sideEffects": false,
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "",
   "private": false,
   "scripts": {
@@ -19,6 +19,10 @@
     "boxes",
     "canvas"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kakl1601/boxes"
+  },
   "author": "Kanya",
   "license": "ISC",
   "devDependencies": {

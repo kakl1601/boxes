@@ -10,7 +10,7 @@
 npm install kanyas-boxes
 ```
 
-#### 2. Create 'index.js' file
+#### 2. Create `index.js` file
 
 ```
 touch index.js
@@ -22,7 +22,7 @@ touch index.js
 open index.js
 ```
 
-#### 4. Write the code below in 'index.js'
+#### 4. Write the code below in `index.js`
 
 ```js
 var boxes = require('kanyas-boxes');
@@ -38,4 +38,4 @@ node index.js
 
 ## How to quit the game 
 
-press 0 (the 'ctrl + c' won't work in this case)
+press `0` (the 'ctrl + c' won't work in this case)
