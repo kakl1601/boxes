@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'fontfontfont';
+    src: url('./PlayfairDisplay-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    overflow: hidden;
+    margin: 0;
+}
+
+
+button {
+    width: 10%;
+    height: 3%;
+    position: absolute;
+    top: 65%;
+    left: 45%;
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    color: #fff;
+    background-color: rosybrown;
+    border: solid 2px rgb(255, 255, 255);
+    transition-duration: .1s;
+}
+
+#element {
+    position: relative;
+    height: 100vh;
+    background-color: rosybrown;
+}
+
+.hello {
+    color: #FFF;
+    font-family: 'fontfontfont';
+}
+
+canvas {
+    position: absolute;
+    margin: 5% 30%;
+    width: 40%;
+    height: 50vh;
+    background-color: #eee;
+    border: solid 3px rgb(0, 0, 0);
+}
+
+@media only screen and (max-width: 900px) {
+    canvas {
+        opacity: 0;
+    }
+  }
+
