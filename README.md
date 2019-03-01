@@ -1,5 +1,7 @@
 # Boxes
 
+![](boxes.gif)
+
 ## To play the game
 
 #### 1. Install the packgage
