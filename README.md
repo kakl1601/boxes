@@ -4,14 +4,14 @@
 
 ## To play the game
 
-    Before you do these steps, make sure you have `Node.js` installed in your computer.
-    You will need to have a `package.json` file in the directory there the package will be installed, 
-    if you don't have one then run this:
+Before you do these steps, make sure you have `Node.js` installed in your computer.
+You will need to have a `package.json` file in the directory there the package will be installed, 
+if you don't have one then run this:
 
-    ```
-    npm init
-    ```
-    this command will create a ´package.json´ file in your directory.
+```
+npm init
+```
+this command will create a ´package.json´ file in your directory.
     
     
 
