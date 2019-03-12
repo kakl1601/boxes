@@ -1,6 +1,7 @@
 var Canvas = require('drawille');
 var line = require('bresenham');
 var keypress = require('keypress');
+var clear = require('clear');
 
 var c = new Canvas(200, 150);
 var paddleX = 50,
@@ -33,6 +34,7 @@ module.exports = {
     breakout: function () {
 
         c.clear();
+        clear();
 
         // border
         line(0, 0, c.width - 1, 0, c.set.bind(c));
@@ -65,10 +67,11 @@ module.exports = {
         }
 
         process.stdout.write(c.frame());
-        console.log("  -----------\n", "| Score: " + score + "  |" + "\n  -----------");
+        console.log("  -----------\n", "| Score: " + score + "  |" + "\n  -----------");        
     },
     boxes: function () {
         c.clear();
+        clear();
 
         // border
         line(0, 0, c.width - 1, 0, c.set.bind(c));

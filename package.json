@@ -2,7 +2,7 @@
   "name": "kanyas-boxes",
   "main": "src/index.js",
   "sideEffects": false,
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "",
   "private": false,
   "scripts": {
@@ -11,9 +11,14 @@
     "start": "webpack-dev-server --open --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
     "server": "node server.js",
-    "boxes": "node src/index.js"
+    "kboxes": "node src/index.js"
+  },
+  "bin": {
+    "boxes": "bin/game.js",
+    "commit": "bin/commit.js"
   },
   "keywords": [
+    "terminal",
     "game",
     "snake",
     "boxes",
@@ -41,12 +46,16 @@
   "dependencies": {
     "bresenham": "0.0.4",
     "canvas": "^2.3.1",
+    "chalk": "^2.4.2",
+    "clear": "^0.1.0",
     "drawille": "^1.1.0",
     "drawille-canvas": "^1.2.0",
+    "figlet": "^1.2.1",
     "gl-matrix": "^3.0.0",
     "gsap": "^2.0.2",
     "keypress": "^0.2.1",
     "lodash": "^4.17.11",
-    "performance-now": "^2.1.0"
+    "performance-now": "^2.1.0",
+    "shelljs": "^0.8.3"
   }
 }
