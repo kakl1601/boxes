@@ -109,8 +109,6 @@ module.exports = {
 
         // if (blockX == appleX && blockY == appleY) {
         if (dist < threshold) {
-            threshold = blockSize;
-            blockSize++;
             status = 0;
             score++;
             appleX = Math.floor(c.width * Math.random());
